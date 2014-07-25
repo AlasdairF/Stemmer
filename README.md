@@ -14,32 +14,32 @@ go get bitbucket.org/tebeka/snowball
 
 ## Stemmer Languages Included
 
-danish
-dutch
-english
-finnish
-french
-german
-hungarian
-italian
-norwegian
-porter
-portuguese
-romanian
-russian
-spanish
-swedish
-turkish
+    danish
+    dutch
+    english
+    finnish
+    french
+    german
+    hungarian
+    italian
+    norwegian
+    porter
+    portuguese
+    romanian
+    russian
+    spanish
+    swedish
+    turkish
 
 Note that *porter* is an older version of the *english* stemmer. You should use *english* instead.
 
 
 ## Usage
 
-  english, _ := snowball.New(`english`)
-  w := english.Stem(`testing`)
-  fmt.Println(`testing =`,w)
-  // testing = test
+    english, _ := snowball.New(`english`)
+    w := english.Stem(`testing`)
+    fmt.Println(`testing =`,w)
+    // testing = test
 
 
 ## Original Readme
