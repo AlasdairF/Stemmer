@@ -5,7 +5,7 @@ This is a fork of the snowball stemmer bindings for Go from [bitbucket.org/tebek
 
 ## Installation
 
-I like Miki's version since it includes all of the C files in the package. You can import it with:
+I like Miki's version since it includes all of the C files in the package. No messing around. You can import it with:
 
 `go get github.com/AlasdairF/Stemmer`
 
