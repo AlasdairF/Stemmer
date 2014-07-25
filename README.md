@@ -38,7 +38,10 @@ Note that *porter* is an older version of the *english* stemmer. You should use 
 
 ## Usage
 
-    english, _ := snowball.New(`english`)
+    english, err := snowball.New(`english`)
+    if err!=nil {
+        panic(err)
+    }
     w := english.Stem(`testing`)
     fmt.Println(`testing =`,w)
     // testing = test
