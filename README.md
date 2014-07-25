@@ -8,7 +8,9 @@ This is a fork of the snowball stemmer bindings for Go from [bitbucket.org/tebek
 I like Miki's version since it includes all of the C files in the package. You can import it with:
 
 `go get github.com/AlasdairF/Stemmer`
+
 *or*
+
 `go get bitbucket.org/tebeka/snowball`
 
 
