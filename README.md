@@ -5,7 +5,7 @@ This is a fork of the [snowball](http://snowball.tartarus.org/) stemmer bindings
 
 ## Installation
 
-I like Miki's version since it includes all of the C files in the package. No messing around. You can import it with:
+This isn't the only set of C bindings for Go around, but I like this version because it includes all of the C files in the package. No messing around. You can import it with:
 
 `go get github.com/AlasdairF/Stemmer`
 
