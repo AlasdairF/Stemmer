@@ -38,6 +38,8 @@ Note that *porter* is an older version of the *english* stemmer. You should use 
 
 ## Usage
 
+Note that the strings you are stemming must not be in CAPITALS, though it is OK if the first letter is Capitalized. Only strings are accepted, not []byte.
+
     english, err := snowball.New(`english`)
     if err!=nil {
         panic(err)
